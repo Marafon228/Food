@@ -32,6 +32,8 @@ $this->title = Yii::$app->name;
     </div>
 
 
+
+
     <?= LinkPager::widget([
         'pagination' => $pages,
     ]) ?>

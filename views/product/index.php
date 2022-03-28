@@ -31,7 +31,13 @@ $this->params['breadcrumbs'][] = $this->title;
             'Name',
             'Description:ntext',
             'Price',
-            'Image',
+            [
+                'attribute' => 'Image',
+                'format' => 'row',
+                'content' => function($data){
+                    return '<img src="data:image/png;base64,'.base64_encode($data->Image).'" />';
+                }
+            ],
 
 
             ['class' => 'yii\grid\ActionColumn'],
