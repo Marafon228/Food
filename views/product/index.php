@@ -47,3 +47,4 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php Pjax::end(); ?>
 
 </div>
+<div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/pyatnitskoye_kladbishche/86722005634/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Пятницкое кладбище</a><a href="https://yandex.ru/maps/6/kaluga/category/cemetery/184108357/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Кладбище в Калуге</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUBN4QgcD" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
