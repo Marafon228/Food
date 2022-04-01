@@ -23,6 +23,7 @@ AppAsset::register($this);
     <?php $this->head() ?>
 </head>
 <body class="d-flex flex-column h-100">
+
 <?php $this->beginBody() ?>
 
 <header>
@@ -55,6 +56,13 @@ AppAsset::register($this);
 
         ],
     ]);
+	?>
+        <form class="CssClass">
+          Телефон: +7(919)084-69-24
+
+        </form>
+
+    <?php
     NavBar::end();
     ?>
 </header>
